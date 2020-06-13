@@ -1,0 +1,151 @@
+// main ../style.less
+
+.sale {
+    position: relative;
+    height: 800px;
+    background-color: #dfdfdf;
+}
+
+.sale__inner {
+    padding: 5rem 3rem;
+    position: absolute;
+    top: -105px;
+    z-index: 10;
+    width: 100%;
+    max-width: 1170px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.sale__main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.sale__item__title {
+    font-size: 2.59rem;
+    font-weight: 900;
+    color: @black;
+    margin: 2rem 0 2rem;
+}
+
+.sale__item {
+    width: 30%;
+
+    &--mid {
+        padding: 8.8rem 3.6rem 8rem 4.2rem;
+        background: url(../images/sale/sale.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+.sale__middle__item {
+    font-family: 'BebasNeue', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+
+    & p:nth-child(1) {
+        font-size: 55.1px;
+        line-height: 60px;
+    }
+
+    & p:nth-child(2) {
+        font-size: 9.5rem;
+        line-height: 98px;
+    }
+
+    & p:nth-child(3) {
+        font-size: 4.5rem;
+        line-height: 50px;
+    }
+
+    & p:nth-child(4) {
+        font-size: 8.98rem;
+        line-height: 91px;
+    }
+
+
+    &--bot {
+        margin-top: 9rem;
+        p:first-child {
+            font-weight: 400;
+            font-size: 130.5px;
+        }
+    }
+}
+
+.item__card {
+    display: flex;
+    max-width: 356px;
+    padding: 2rem 0;
+    border-bottom: 1px solid #c2c2c2;
+
+    &:last-child {
+        border: 0;
+    }
+
+    & a {
+        display: flex;
+    }
+
+
+    & .product__title {
+        line-height: 1.2;
+        color: @black;
+    }
+
+    & .product__brand {
+        font-size: 1.7rem;
+        line-height: 1.2;
+        font-style: italic;
+        color: #939393;
+        margin-bottom: 0;
+    }
+
+    & .product__rate {
+        font-size: 15px;
+        color: #ffc808;
+        margin: .9rem 0 1.4rem;
+    }
+
+    & .product__price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & .sale__price {
+        line-height: 1.2;
+        color: #f92349;
+    }
+}
+
+.item__card__content {
+    margin-left: 3rem;
+}
+
+.sale__footer {
+    margin-top: 8rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.input {
+    width: 100%;
+    max-width: 526px;
+    border: 1px solid #a1a1a1;
+    font-size: 1.71rem;
+    padding: 0.6em 1.15em 0.55em;
+    margin-right: 8px;
+}

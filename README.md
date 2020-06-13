@@ -1,2 +1,2 @@
 # MeStore
-start
+finish macket without @media
